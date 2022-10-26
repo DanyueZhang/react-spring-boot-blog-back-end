@@ -28,7 +28,7 @@ This blog project is built with spring boot and react. Here, it's the back-end p
 3. Change local storage address
 
    cd into `react-spring-boot-blog-back-end/src/main/java/com/danyue/reactspringbootblogbackend/constants/SystemConstants.java`
-   and change the `STORAGE_IMAGE_UR` to your own address
+   and change the `STORAGE_IMAGE_URL` to your own address
 
 4. run the back-end application
 
