@@ -16,7 +16,7 @@ This blog project is built with spring boot and react. Here, it's the back-end p
    # cd into root directory of project
    
    # build mysql image
-   $ docker run build -t blogmysql:0.1 .
+   $ docker build -t blogmysql:0.1 .
    
    # build redis image
    $ docker pull redis
