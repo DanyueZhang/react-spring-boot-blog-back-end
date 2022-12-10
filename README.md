@@ -14,17 +14,17 @@ This blog project is built with spring boot and react. Here, it's the back-end p
 
    ```
    # cd into root directory of project
-   
+
    # build mysql image
    $ docker build -t blogmysql:0.1 .
-   
+
    # build redis image
    $ docker pull redis
-   
+
    # create and run mysql and redis containers
    $ docker-compose -f docker-compose.yaml up -d
    ```
-   
+
 3. Change local storage address
 
    cd into `react-spring-boot-blog-back-end/src/main/java/com/danyue/reactspringbootblogbackend/constants/SystemConstants.java`
@@ -33,3 +33,7 @@ This blog project is built with spring boot and react. Here, it's the back-end p
 4. run the back-end application
 
    (default admin name and password is `admin` and `123456`)
+
+## Live Demo and More...
+
+[www.danyuezhang.com](http://www.danyuezhang.com/)
